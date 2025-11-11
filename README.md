@@ -1,4 +1,4 @@
-# <h2>🚀 <img src="https://argo-cd.readthedocs.io/en/stable/assets/argo.png" alt="Argo CD" width="28"/> Argo CD Leaderboard App</h2> Argo CD Leaderboard App
+# <h2> <img src="https://argo-cd.readthedocs.io/en/stable/assets/argo.png" alt="Argo CD" width="28"/> Argo CD Leaderboard App</h2> Argo CD Leaderboard App
 
 This repository demonstrates a **GitOps workflow using Argo CD and Helm** to deploy a sample **Leaderboard** microservice to Kubernetes.
 
