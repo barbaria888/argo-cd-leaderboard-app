@@ -8,5 +8,5 @@ servers:
   insecure: true
   server: localhost:30443
 users:
-- auth-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJhcmdvY2QiLCJzdWIiOiJhZG1pbjpsb2dpbiIsImV4cCI6MTc2MjkyNjg4MiwibmJmIjoxNzYyODQwNDgyLCJpYXQiOjE3NjI4NDA0ODIsImp0aSI6ImZkZTQxZmRlLTg2MTYtNDg4Ni1hODllLTczMmQ3MTJlN2E3MCJ9.SvM215068t0m_D9iq7KWPNx_JEXCEJt3nEXvInIYEUM
+- auth-token: xxxxxxx
   name: localhost:30443
