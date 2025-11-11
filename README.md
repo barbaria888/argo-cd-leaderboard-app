@@ -7,17 +7,17 @@ It showcases how Argo CD applications are defined, configured per environment, a
 ---
 
 ## 📁 Repository Structure
-
+📦 argo-cd-leaderboard-app/
 ├── apps/
-│ ├── leaderboard-dev.yaml # Argo CD Application manifest for dev environment
-│ ├── leaderboard-qa.yaml # Argo CD Application manifest for QA environment
-│ └── (more environments can be added here)
+│   ├── 🧪 leaderboard-dev.yaml     # Argo CD App for Dev
+│   ├── 🔍 leaderboard-qa.yaml      # Argo CD App for QA
+│   └── 🚀 leaderboard-prod.yaml    # Argo CD App for Prod
 │
 └── charts/
-└── leaderboard/
-├── Chart.yaml # Helm chart metadata
-├── templates/ # Kubernetes manifests (Deployment, Service, etc.)
-├── values.yaml # Default Helm values
-├── values-dev.yaml # Overrides for dev
-├── values-qa.yaml # Overrides for QA
-└── values-prod.yaml # Overrides for production
+    └── leaderboard/
+        ├── 📄 Chart.yaml           # Helm chart metadata
+        ├── 🧱 templates/           # K8s manifests
+        ├── ⚙️ values.yaml          # Default values
+        ├── 🧩 values-dev.yaml      # Dev overrides
+        ├── 🧩 values-qa.yaml       # QA overrides
+        └── 🧩 values-prod.yaml     # Prod overrides
