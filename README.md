@@ -7,17 +7,17 @@ It showcases how Argo CD applications are defined, configured per environment, a
 ---
 
 ## 📁 Repository Structure
-📦 argo-cd-leaderboard-app/
-├── apps/
-│   ├── 🧪 leaderboard-dev.yaml     # Argo CD App for Dev
-│   ├── 🔍 leaderboard-qa.yaml      # Argo CD App for QA
-│   └── 🚀 leaderboard-prod.yaml    # Argo CD App for Prod
-│
-└── charts/
-    └── leaderboard/
-        ├── 📄 Chart.yaml           # Helm chart metadata
-        ├── 🧱 templates/           # K8s manifests
-        ├── ⚙️ values.yaml          # Default values
-        ├── 🧩 values-dev.yaml      # Dev overrides
-        ├── 🧩 values-qa.yaml       # QA overrides
-        └── 🧩 values-prod.yaml     # Prod overrides
+📦 argo-cd-leaderboard-app/<br>
+├── apps/<br>
+│ ├── 🧪 leaderboard-dev.yaml &nbsp;&nbsp;# Argo CD App for Dev<br>
+│ ├── 🔍 leaderboard-qa.yaml &nbsp;&nbsp;# Argo CD App for QA<br>
+│ └── 🚀 leaderboard-prod.yaml &nbsp;&nbsp;# Argo CD App for Prod<br>
+│<br>
+└── charts/<br>
+&nbsp;&nbsp;&nbsp;└── leaderboard/<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── 📄 Chart.yaml &nbsp;&nbsp;# Helm chart metadata<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── 🧱 templates/ &nbsp;&nbsp;# K8s manifests<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── ⚙️ values.yaml &nbsp;&nbsp;# Default values<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── 🧩 values-dev.yaml &nbsp;&nbsp;# Dev overrides<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── 🧩 values-qa.yaml &nbsp;&nbsp;# QA overrides<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── 🧩 values-prod.yaml &nbsp;&nbsp;# Prod overrides<br>
