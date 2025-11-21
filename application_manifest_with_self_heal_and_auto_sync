@@ -1,0 +1,16 @@
+project: default
+source:
+  repoURL: 'ssh://root@10.5.0.74/root/argo-cd-learning-assets/'
+  path: charts/leaderboard
+  targetRevision: HEAD
+  helm:
+    valueFiles:
+      - values-dev.yaml
+destination:
+  namespace: dev
+  name: in-cluster
+syncPolicy:
+  automated:
+    selfHeal: true
+  syncOptions:
+    - CreateNamespace=true
