@@ -4,7 +4,8 @@ This repository demonstrates a **GitOps workflow using Argo CD and Helm** to dep
 
 It showcases how Argo CD applications are defined, configured per environment, and synced to a cluster using Helm value overrides.
 <br>HOW did I deploy it over ArgoUI see blog-> 
-<a href="https://kubernetes-project.hashnode.dev/deploying-a-multi-environment-application-with-argo-cdand-helm-a-complete-gitopsguide"><img src="https://logowik.com/content/uploads/images/hashnode-icon9577.logowik.com.webp"size="10"></a>
+<a href="https://kubernetes-project.hashnode.dev/deploying-a-multi-environment-application-with-argo-cdand-helm-a-complete-gitopsguide"><img src="assets/hashnode.svg" alt="Hashnode" width="28" />
+</a>
 ---
 
 ## 📁 Repository Structure
