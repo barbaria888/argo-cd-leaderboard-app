@@ -3,7 +3,7 @@
 This repository demonstrates a **GitOps workflow using Argo CD and Helm** to deploy a sample **Leaderboard** microservice to Kubernetes.
 
 It showcases how Argo CD applications are defined, configured per environment, and synced to a cluster using Helm value overrides.
-<br>HOW did I deploy it over ArgoUI see blog-> 
+<br>HOW did I deploy it over ArgoUI see blog➪
 <a href="https://kubernetes-project.hashnode.dev/deploying-a-multi-environment-application-with-argo-cdand-helm-a-complete-gitopsguide"><?xml version="1.0" encoding="UTF-8"?><img src="https://img.shields.io/badge/Hashnode-2962FF?style=for-the-badge&logo=hashnode&logoColor=white" />
 </a>
 ---
